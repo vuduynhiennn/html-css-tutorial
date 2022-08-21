@@ -1,0 +1,13 @@
+@tailwind base;
+
+@layer base {
+  body {
+    @apply font-barlow;
+  }
+  h4 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-3xl;
+  }
+}

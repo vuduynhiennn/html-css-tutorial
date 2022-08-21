@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+body {
+    padding: 20px;
+}
+.avatars {
+    display: flex;
+    align-items: center;
+    background-color: red;
+    
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    object-fit: cover;
+    /* box-shadow: 0 0 0 2px white; */
+}
+/* .avatar:nth-child(2) {
+    transform: translateX(-10px);
+}
+.avatar:nth-child(3) {
+    transform: translateX(-20px);
+}
+.avatar:nth-child(4) {
+    transform: translateX(-30px);
+} */
+
+.avatar:not(:first-child) {
+    margin-left: -10px;
+}
+.avatar-number {
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
